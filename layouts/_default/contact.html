@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="max-w-4xl mx-auto px-6 py-16">
+    <header class="mb-12">
+        <h1 class="text-4xl font-bold text-gray-900">{{ .Title }}</h1>
+    </header>
+
+    <div class="grid md:grid-cols-2 gap-12">
+        <div class="prose prose-lg">
+            {{ .Content }}
+        </div>
+
+        <div class="space-y-6">
+            {{ with .Site.Params.social.email }}
+            <a href="mailto:{{ . }}"
+               class="flex items-center space-x-3 text-gray-600 hover:text-gray-900 transition-colors">
+                {{ partial "icons/email.html" }}
+                <span>{{ . }}</span>
+            </a>
+            {{ end }}
+
+            {{ with .Site.Params.social.github }}
+            <a href="https://github.com/{{ . }}" target="_blank" rel="noopener"
+               class="flex items-center space-x-3 text-gray-600 hover:text-gray-900 transition-colors">
+                {{ partial "icons/github.html" }}
+                <span>github.com/{{ . }}</span>
+            </a>
+            {{ end }}
+
+            {{ with .Site.Params.social.linkedin }}
+            <a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener"
+               class="flex items-center space-x-3 text-gray-600 hover:text-gray-900 transition-colors">
+                {{ partial "icons/linkedin.html" }}
+                <span>LinkedIn</span>
+            </a>
+            {{ end }}
+
+            {{ with .Site.Params.social.twitter }}
+            <a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener"
+               class="flex items-center space-x-3 text-gray-600 hover:text-gray-900 transition-colors">
+                {{ partial "icons/twitter.html" }}
+                <span>@{{ . }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

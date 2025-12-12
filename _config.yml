@@ -1,8 +1,10 @@
 title: Shashi Singh
-description: 
+description: "My personal website"
+url: "https://singhshashi.github.io"
+
 google_analytics: UA-68377788-1
 show_downloads: true
-theme: jekyll-theme-minimal
+remote_theme: zerostatic/jekyll-atlantic-theme
 
 gems:
   - jekyll-mentions

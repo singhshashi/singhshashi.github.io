@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Shashi S Singh</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Shashi S Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Project</title>
+      <link>http://localhost:1313/projects/sample-project/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sample-project/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview &lt;a href=&#34;#overview&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is a sample project to demonstrate how project pages look on this site. Replace this with your actual projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features &lt;a href=&#34;#key-features&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature One&lt;/strong&gt; — Description of the first key feature&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature Two&lt;/strong&gt; — Description of the second key feature&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature Three&lt;/strong&gt; — Description of the third key feature&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details &lt;a href=&#34;#technical-details&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This project was built using Go for the backend, React for the frontend, and PostgreSQL for the database.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture &lt;a href=&#34;#architecture&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The application follows a clean architecture pattern with clear separation between layers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

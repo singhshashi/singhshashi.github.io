@@ -1,0 +1,30 @@
+<div class="flex items-center space-x-4">
+    {{ with .Site.Params.social.github }}
+    <a href="https://github.com/{{ . }}" target="_blank" rel="noopener"
+       class="text-gray-400 hover:text-gray-600 transition-colors"
+       aria-label="GitHub">
+        {{ partial "icons/github.html" }}
+    </a>
+    {{ end }}
+    {{ with .Site.Params.social.linkedin }}
+    <a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener"
+       class="text-gray-400 hover:text-gray-600 transition-colors"
+       aria-label="LinkedIn">
+        {{ partial "icons/linkedin.html" }}
+    </a>
+    {{ end }}
+    {{ with .Site.Params.social.twitter }}
+    <a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener"
+       class="text-gray-400 hover:text-gray-600 transition-colors"
+       aria-label="Twitter">
+        {{ partial "icons/twitter.html" }}
+    </a>
+    {{ end }}
+    {{ with .Site.Params.social.email }}
+    <a href="mailto:{{ . }}"
+       class="text-gray-400 hover:text-gray-600 transition-colors"
+       aria-label="Email">
+        {{ partial "icons/email.html" }}
+    </a>
+    {{ end }}
+</div>

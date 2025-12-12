@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="max-w-3xl mx-auto px-6 py-16">
+    <header class="mb-12">
+        <time class="text-sm text-gray-400">{{ .Date.Format "January 2, 2006" }}</time>
+        <h1 class="text-4xl font-bold text-gray-900 mt-2">{{ .Title }}</h1>
+
+        {{ with .Params.tags }}
+        <div class="flex flex-wrap gap-2 mt-4">
+            {{ range . }}
+            <a href="{{ "tags/" | absURL }}{{ . | urlize }}"
+               class="text-sm text-gray-500 hover:text-gray-700">#{{ . }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </header>
+
+    <div class="prose prose-lg max-w-none">
+        {{ .Content }}
+    </div>
+
+    <footer class="mt-16 pt-8 border-t border-gray-100">
+        <a href="/blog/" class="text-gray-600 hover:text-gray-900 transition-colors">
+            &larr; Back to all posts
+        </a>
+    </footer>
+</article>
+{{ end }}

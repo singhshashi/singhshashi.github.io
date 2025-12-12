@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Shashi S Singh</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Shashi S Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 15:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://localhost:1313/blog/hello-hugo/</link>
+      <pubDate>Thu, 26 Jun 2025 15:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/hello-hugo/</guid>
+      <description>&lt;p&gt;This is my first post in Hugo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Path of the Doer</title>
+      <link>http://localhost:1313/blog/the-path-of-the-doer/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-path-of-the-doer/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Shashi S Singh</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Shashi S Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 15:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Project</title>
+      <link>http://localhost:1313/projects/sample-project/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sample-project/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview &lt;a href=&#34;#overview&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is a sample project to demonstrate how project pages look on this site. Replace this with your actual projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features &lt;a href=&#34;#key-features&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature One&lt;/strong&gt; — Description of the first key feature&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature Two&lt;/strong&gt; — Description of the second key feature&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature Three&lt;/strong&gt; — Description of the third key feature&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details &lt;a href=&#34;#technical-details&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This project was built using Go for the backend, React for the frontend, and PostgreSQL for the database.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture &lt;a href=&#34;#architecture&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The application follows a clean architecture pattern with clear separation between layers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://localhost:1313/blog/hello-hugo/</link>
+      <pubDate>Thu, 26 Jun 2025 15:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/hello-hugo/</guid>
+      <description>&lt;p&gt;This is my first post in Hugo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Path of the Doer</title>
+      <link>http://localhost:1313/blog/the-path-of-the-doer/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-path-of-the-doer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a developer and tech entrepreneur passionate about building products that solve real problems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background &lt;a href=&#34;#background&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;With a background in software engineering, I&amp;rsquo;ve spent years building and shipping products across various domains. I believe in writing clean, maintainable code and creating user experiences that delight.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-do&#34;&gt;What I Do &lt;a href=&#34;#what-i-do&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Building Products&lt;/strong&gt; — From idea to launch, I enjoy the entire process of creating software products&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical Leadership&lt;/strong&gt; — Helping teams ship quality software efficiently&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open Source&lt;/strong&gt; — Contributing to and maintaining open source projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;skills--technologies&#34;&gt;Skills &amp;amp; Technologies &lt;a href=&#34;#skills--technologies&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I work with a variety of technologies, always choosing the right tool for the job:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m always interested in hearing about new projects, opportunities, or just having a conversation about technology.&lt;/p&gt;&#xA;&lt;p&gt;Whether you have a question, want to collaborate, or just want to say hello, feel free to reach out through any of the channels listed here.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll do my best to respond promptly.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

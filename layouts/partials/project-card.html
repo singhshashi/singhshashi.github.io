@@ -1,0 +1,28 @@
+<article class="group">
+    <a href="{{ .RelPermalink }}" class="block">
+        {{ with .Params.image }}
+        <div class="aspect-video bg-gray-100 rounded-lg overflow-hidden mb-4">
+            <img src="{{ . }}" alt="{{ $.Title }}"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+        </div>
+        {{ else }}
+        <div class="aspect-video bg-gradient-to-br from-gray-100 to-gray-50 rounded-lg mb-4
+                    flex items-center justify-center">
+            <span class="text-gray-300">{{ partial "icons/code.html" }}</span>
+        </div>
+        {{ end }}
+
+        <h3 class="text-lg font-semibold text-gray-900 group-hover:text-gray-600 transition-colors mb-2">
+            {{ .Title }}
+        </h3>
+        <p class="text-gray-600 text-sm line-clamp-2">{{ .Description | default .Summary }}</p>
+
+        {{ with .Params.technologies }}
+        <div class="flex flex-wrap gap-2 mt-3">
+            {{ range . }}
+            <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </a>
+</article>

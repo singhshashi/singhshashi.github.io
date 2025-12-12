@@ -1,0 +1,13 @@
+<footer class="border-t border-gray-100 mt-auto">
+    <div class="max-w-5xl mx-auto px-6 py-8">
+        <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}.</p>
+            {{ with .Site.Params.social.github }}
+            <a href="https://github.com/{{ . }}" target="_blank" rel="noopener"
+               class="hover:text-gray-700 transition-colors mt-2 md:mt-0">
+                GitHub
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</footer>

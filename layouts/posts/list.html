@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="max-w-4xl mx-auto px-6 py-16">
+    <header class="mb-12">
+        <h1 class="text-4xl font-bold text-gray-900">Blog</h1>
+        <p class="text-xl text-gray-600 mt-4">Thoughts on technology, building products, and more.</p>
+    </header>
+
+    <div class="divide-y divide-gray-100">
+        {{ range .Pages }}
+            {{ partial "post-card.html" . }}
+        {{ end }}
+    </div>
+
+    {{ if gt .Paginator.TotalPages 1 }}
+    <nav class="mt-12 flex justify-center space-x-4">
+        {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}" class="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors">
+            &larr; Newer
+        </a>
+        {{ end }}
+        <span class="px-4 py-2 text-gray-400">
+            Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+        </span>
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors">
+            Older &rarr;
+        </a>
+        {{ end }}
+    </nav>
+    {{ end }}
+</section>
+{{ end }}

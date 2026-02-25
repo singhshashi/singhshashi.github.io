@@ -18,9 +18,13 @@
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
 
+    {{ if .Site.Params.enableGoogleAnalytics }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+
     {{ block "head" . }}{{ end }}
 </head>
-<body class="bg-white text-gray-800 antialiased">
+<body class="bg-amber-50 text-gray-800 antialiased">
     <div class="min-h-screen flex flex-col">
         {{ partial "header.html" . }}
 

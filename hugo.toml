@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Shashi S Singh"
 theme = "mini"
 
+[services]
+  [services.googleAnalytics]
+    id = "G-X7WN8ST0HZ"
+
 [pagination]
   pagerSize = 10
 
@@ -33,6 +37,7 @@ theme = "mini"
 
 # Site parameters
 [params]
+  enableGoogleAnalytics = true
   author = "Shashi S Singh"
   authorFull = "Shashi Shekhar Singh"
   description = "Developer and Tech Entrepreneur"
